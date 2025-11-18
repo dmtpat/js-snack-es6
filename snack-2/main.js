@@ -31,3 +31,14 @@ for (let i = 0; i < teams.length; i++) {
     console.log(`La squadra in posizione ${i} nell'array teamsNames è ${teamsNames[i]}`);
 }
 
+/**
+ * funzione che aggiunge un nuovo team
+ * @param {array} teams array a cui aggiungere il nuovo team
+ * @param {string} name nome della squadra
+ * @param {number} fault numero di falli della squadra
+ */
+function add(teams, name, fault) {
+    teams.push({ name: name, points: 0, faults: fault });
+}
+
+add(teams, "Vincenzella", randomMinMax(0, 100));
