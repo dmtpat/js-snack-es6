@@ -14,7 +14,7 @@ Richiederà di ragionare sui dati, iniziate con un console.log in un ciclo. Poi 
 
 ---
 
-## Snack2
+## Snack 2
 
 - Creare un array di oggetti di squadre di calcio.
 - Ogni squadra avrà diverse proprietà: 
